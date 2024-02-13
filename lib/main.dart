@@ -3,7 +3,6 @@ import 'package:movie_app/pages/first_page/login_page.dart';
 
 main() {
   WidgetsFlutterBinding.ensureInitialized();
-
   runApp(const MyApp());
 }
 
@@ -15,6 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: FirstPage(),
+      title: 'Movie App',
     );
   }
 }
